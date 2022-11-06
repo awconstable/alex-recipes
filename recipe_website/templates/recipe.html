@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ recipe['title'] }}</title>
+    </head>
+<body>
+    <h2>{{ recipe['title'] }}</h2>
+    <p></p>
+    <h3>Instructions</h3>
+{% for step in recipe['instructions'] %}
+    <h4>Step {{ step['step_id'] }}</h4>
+    <p>{{ step['description'] }}</p>
+{% endfor %}
+    <p>
+        <img width="200" height="200" src="{{ recipe['image_src'] }}">
+    </p>
+</body>
+</html>
