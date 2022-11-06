@@ -15,4 +15,9 @@ print("What is your favourite colour?")
 colour = input()
 
 
+print("How old are you?")
+
+age = input()
+
+
 print("Cool, Bye!!")
