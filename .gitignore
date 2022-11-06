@@ -2,3 +2,5 @@
 /shelf/
 /workspace.xml
 .idea
+recipe_website/build
+venv
